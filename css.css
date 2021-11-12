@@ -1,0 +1,548 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* INCEPUT*/
+ 
+
+
+
+body{
+    background-color:#F9F4ED;
+    font-family:georgia,serif;
+    color:#444;
+    
+}
+
+.header {
+	width: 47%;
+    padding-top:60px;
+    margin:auto; 
+	margin-bottom: 40px;
+
+}
+
+/*first button*/
+
+
+.constructie-btn-logo{
+    
+    font-size:40px;
+    background-color: #F9F4ED;
+    color:#444;
+    text-align:center;
+    border: 8px solid #444;
+    border-radius:10px;
+    text-decoration:none;
+    padding:5px 24px;
+}
+
+
+
+.constructie-btn-logo:hover{
+    background-color: white;
+    border: 8px solid white;
+    border-radius:10px;
+    cursor: pointer;
+    color:#c66;
+}
+
+/*second button*/
+.btn-nav{
+    padding:6px 11px;
+    position:relative;
+    display:inline-block;
+    border: 8px solid #F9F4ED;
+    border-radius:10px;    
+}
+
+.constructie-btn-nav{
+    height: 4px;
+    width:35px;
+    background-color:black;
+    border-radius: 3px;
+    
+}
+
+.btn-nav:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.constructie-btn-nav:hover{
+    background-color:#c66;
+}
+
+
+.btn-logo {
+	float:left;
+}
+
+.second-btn {
+	margin-left: 93%;
+}   
+
+.btn-nav {
+	background-color: transparent;
+	font-size: 16px;
+	border: none;
+}
+  
+
+
+/*SECTIUNE IMAGINE-NUME-BARA*/
+
+.sectiune{
+    width: 47%;
+    margin:auto;
+}
+
+.imagine-profil{
+    display:block;
+    position:relative;
+    width: 98%;
+    height:600px;
+    border: 11px solid #444;
+    border-radius: 8px;
+    top:30px;   
+}
+ .container-introducere {
+     width:100%;
+ }
+
+.nume{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top:100px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.bara{
+    height:18px;
+    background-color: #c66;
+    border-radius: 8px;
+    margin-top:45px;
+   /* width:104%; */
+}
+
+.buna-ziua{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.introducere{
+    font-size: 23px;
+    text-align:justify;
+    margin-top: 40px;
+    line-height: 1.2;
+}
+
+/*legaturi on line*/
+
+.network {
+    width:100%;
+    height: auto;
+    margin-top:35px;
+}
+
+.media {
+    display: inline-block;
+}
+
+.container_media {
+    float:right;
+}
+
+.media h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 8px;
+} 
+
+.fa {
+	padding: 9px;
+	font-size: 40px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	border:2px solid rgba(68, 68, 68, 0.199);
+}
+  
+.fa:hover {
+	border: 2.5px solid black;
+	background:#c66;
+	transition: 4;
+	border:2px solid black;
+}
+  
+.fa-facebook {
+	color: black;
+}
+
+
+.fa-instagram {
+	color: black;
+}
+
+.fa-github {
+	color: black;
+}
+
+.bara2{
+    height:18px;
+    background-color: #c66;
+    border-radius: 8px;
+    margin-top:25px;
+    margin-bottom:50px;
+}
+
+/* INFORMATII + ULTIMA BARA */
+
+.imformatii{
+    width:50%;
+    margin:auto;
+}
+
+.coloana1{
+    display:inline-block;
+    font-size:20px;
+    border-right:1px solid rgba(68, 68, 68, 0.199);
+    padding-right:40px;
+}
+
+.coloana2{
+    float:right;
+    font-size:20px;
+}
+
+.subtitlu4{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top:25px;
+    padding-bottom: 30px;
+}
+
+li{
+    font-size: 18;
+    line-height: 2;
+}
+
+.bara3{
+    height:18px;
+    background-color: #c66;
+    border-radius: 8px;
+    margin-top:65px;
+    margin-bottom:68px;
+
+}
+
+
+/* PROIECTE */
+
+.container-proiecte{
+    width:54%;
+    margin:auto;
+    text-align: left;
+    font-size:28px;
+}
+
+.proiect1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(68, 68, 68, 0.199);
+    text-indent:50px;
+
+}
+
+.proiect1:hover{
+    background-color: white;
+    cursor:pointer;  
+}
+
+.proiect2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(68, 68, 68, 0.199);
+    text-indent:50px;
+
+}
+
+.proiect2:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
+.profil{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(68, 68, 68, 0.199);
+    border-bottom: 1px solid rgba(68, 68, 68, 0.199);
+    text-indent:50px;
+}
+
+.profil:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
+.nume-proiecte{
+    text-decoration: none;
+    color: #444;
+    font-weight:600;
+}
+
+.nume-proiecte:hover{
+    color:#c66;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    padding-left:5px;
+    margin-bottom:50px
+}
+
+/*media*/
+
+@media(max-width:700px) {
+    body{
+       font-size:12px;
+    }
+    .header{
+        width:90%;
+        margin:auto;
+    }
+
+    .second-btn {
+	margin-left: 93%;
+    }  
+
+    .sectiune{
+        width:100%;
+        margin-left:20px;
+        margin-right:20px
+    }
+
+    .container-introducere {
+        width:90%;
+    }
+
+    .imagine-profil{
+        width: 90%;
+        height:500px;
+    }
+
+    .imformatii{
+        width:40%;
+        margin:auto;
+    }
+
+    .media h3{
+        font-size: 25px;
+    } 
+
+    .container_media {
+        float:right;
+        margin-right: 8px;
+    }
+    
+    .imformatii{
+        width:100%;
+        margin:auto;
+    }
+    
+    .coloana1{
+        border-right: 0px;
+        padding-left: 10px;
+    }
+
+    .coloana2{
+        float:right;
+        font-size: 20px;
+        padding-right: 0px;  /*pt 800*/
+    }
+    
+    li{
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    .subtitlu4{
+        font-size: 18px;
+    }
+
+    .bara3{
+        
+        width: 90%;
+    }
+
+    .bara2{
+        width: 90%;
+    }
+
+    .container-proiecte{
+        width:90%;
+        
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .second-btn {
+        margin-left: 93%;
+    }  
+
+    .header{
+        width:90%;
+    }
+
+    .sectiune{
+        width: 95%;
+    }
+
+    .container-proiecte{
+        width:90%;  
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .second-btn {
+        margin-left: 93%;
+    }
+
+    .header{
+        width:80%;
+    }
+
+    .sectiune{
+        width: 80%;
+    }
+
+    .container-proiecte{
+        width:90%;  
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+    .second-btn {
+        margin-left: 90%;
+    }
+
+    .header{
+        width:70%;
+    }
+
+    .sectiune{
+        width: 70%;
+    }
+
+    .container-proiecte{
+        width:80%;  
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .second-btn {
+        margin-left: 93%;
+    }
+
+    .header{
+        width:60%;
+    }
+
+    .sectiune{
+        width: 60%;
+    }
+
+    .container-proiecte{
+        width:70%;  
+    } 
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .second-btn {
+        margin-left: 93%;
+    }
+
+    .header{
+        width:60%;
+    }
+
+    .sectiune{
+        width: 60%;
+    }
+
+    .container-proiecte{
+        width:70%;  
+    } 
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+    .sectiune{
+        width: 50%;
+    }
+
+    .container-proiecte{
+        width:60%;  
+    } 
+}
